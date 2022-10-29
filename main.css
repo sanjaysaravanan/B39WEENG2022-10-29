@@ -1,0 +1,41 @@
+body,
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+.modal {
+  display: none;
+  height: 80vh;
+  width: 80vw;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  padding: 1em;
+  background: #ddd;
+  border: 2px solid black;
+  z-index: 2;
+}
+
+.modal:target {
+  display: block;
+}
+
+.backdrop {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.modal:target+.backdrop {
+  display: block;
+}

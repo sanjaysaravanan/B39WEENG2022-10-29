@@ -1,0 +1,20 @@
+
+Topics:
+
+  Recap for async & await:
+    async & await --> which makes fews async operations synchronous inside an aysnc block
+                      await helps in doing so
+    return type: promise which contains the return obj
+
+  Publics APIs
+  Look for You requirement & Choose a type of API
+  Use APIs which has HTTPS & CORS --> Cross Origin Resources Sharing enabled
+  If Signing is fine Go for Auth, HTTPS, CORS enabled
+  CORS -> Cross Origin Resource Sharing
+
+  Mock APIs --> A Mocked Server/Backend setup which support the Client to perform CRUD operations from UI
+  CRUD Operations on Resources
+  Read ( GET ) all, particular ---> Read all/specific entity
+  Create ( POST ) --> Create a new entity
+  Update ( PUT ) --> Update a particular entity
+  Delete ( DELETE ) --> Update a particular entity
