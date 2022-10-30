@@ -4,7 +4,7 @@ Topics:
   Recap for async & await:
     async & await --> which makes fews async operations synchronous inside an aysnc block
                       await helps in doing so
-    return type: promise which contains the return obj
+    return type: promise which contains the return obj ( not suggested to return anything from a async func )
 
   Publics APIs
   Look for You requirement & Choose a type of API
